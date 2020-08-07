@@ -104,8 +104,8 @@ def remove_permissions(session, item_id, perm_id):
 
 if len(sys.argv) != 3:
     print("Usage: ./rm_permissions.py folder/item_path -f|-i")
-    print("Example: ./rm_permissions.py esamiRO/2020-07-27/id076596 -f --> remove folder's and folder children's permissions\n"
-          "Example: ./rm_permissions.py esamiRO/2020-07-27/id076596 -i --> remove item's permission only")
+    print("Example: ./rm_permissions.py esamiRO/2020-07-27/id076596 -f --> remove folder and children's folder permissions\n"
+          "Example: ./rm_permissions.py esamiRO/2020-07-27/id076596 -i --> remove item permission only")
     sys.exit()
 
 item_path = sys.argv[1]
